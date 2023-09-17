@@ -1,8 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Introduction
+Hello! This is what I used to develop my personal website. This website is available at [https://wdanjou.dev](https://wdanjou.dev)
 
-## Getting Started
+Feel free to download the project if you want to use it as inspiration for you own personal website. I used some basic [TailwindCSS](https://tailwindcss.com/) to achieve the styling as well as [Next.js](https://nextjs.org/) for the structure. 
 
-First, run the development server:
+## Applying your own touch
+
+To use the project first run the dev version of the project using one of the following, depending on what you are using:
 
 ```bash
 npm run dev
@@ -12,23 +15,6 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The developpement version will be available at [http://localhost:3000](http://localhost:3000). You will be able to see your changes whenever you save file in the project, the page will reload your changes. 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Once your modification are done, you can run the `build` script. (`npm run build`) to compile your project. Please note that for my personal use, I configured my project such that, it will output a `out` folder containing a static version of the project. Feel free to check the `next.config.js` to change that behavior. 
