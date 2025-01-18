@@ -55,7 +55,7 @@ export default function Home() {
 
           <section>
             <h2 className='mt-3 font-bold text-xl text-slate-200'>Studies</h2>
-            <Experience CompanyLink={"https://www.umontreal.ca/"} Date={'Sept 2020 - Dec 2023'} Company={'University of Montreal'} Content={'Bachelor in Computer Science with GPA of 3.23'} JobTitle={''}/>
+            <Experience CompanyLink={"https://www.umontreal.ca/"} Date={'Sept 2020 - Dec 2023'} Company={'University of Montreal'} Content={'Bachelor in Computer Science'} JobTitle={''}/>
           </section>
 
           {/*Experiences section*/}
@@ -63,8 +63,9 @@ export default function Home() {
             <h2 className='mt-3 font-bold text-xl text-slate-200'>Experience</h2>
 
             <div className="mt-2 flex flex-col">
-              <Experience CompanyLink={"https://www.prattwhitney.com/"} tags={['Webcon', 'SharePoint', 'Css']} Date={'May 2023-Present'} Company={'Pratt & Whitney Canada'} JobTitle={'Web Application Developer'} Content={'Deliver fully functional web applications that are powered by Webcon BPS. Help create a new, more modern design for the internal website.'} />
-              <Experience CompanyLink={"https://tuiles3r.com/"} tags={['Angular', 'NodeJS', 'Ms Access', 'Thunderbird']} Date={'May 2022 - Dec 2022'} Company={'3R Tiles'} JobTitle={'Software Developer'} Content={'Deliver a CRM that has been completely customized to the needs of the business. This consists of a Web user interface, a server backend program, and a Thunderbird mail addon. Helped in the migration of the earlier system, which used MS Access, by offering support.'}  />
+              <Experience CompanyLink={"https://epiqmachinery.com/"} tags={['C#', 'VB.NET', 'MSSQL']} Date={'Feb 2024-Present'} Company={'EPIQ-Machinery'} JobTitle={'Developer'} Content={'Maintaining fully custom in-house applications. Contributing to migration to more modern technologies for those applications.'} />
+              <Experience CompanyLink={"https://www.prattwhitney.com/"} tags={['Webcon', 'SharePoint', 'Css']} Date={'May 2023 - Jan 2024'} Company={'Pratt & Whitney Canada'} JobTitle={'Developer'} Content={'Deliver fully functional web applications that are powered by Webcon BPS. Help create a new, more modern design for the internal website.'} />
+              <Experience CompanyLink={"https://tuiles3r.com/"} tags={['Angular', 'NodeJS', 'MySQL', 'Thunderbird']} Date={'May 2022 - Dec 2022'} Company={'3R Tiles'} JobTitle={'Full Stack Developer'} Content={'Deliver a CRM that has been completely customized to the needs of the business. This consists of a Web user interface, a server backend program, and a Thunderbird mail addon. Helped in the migration of the earlier system, which used MS Access, by offering support.'}  />
               <Experience CompanyLink={"https://griis.ca/"} tags={['JQuery', 'HTML', 'Css', 'Javascript']} Date={'May 2021 - Nov 2021'} Company={'University of Sherbrooke - GRIIS'} JobTitle={'Research Assistant'} Content={'Create a completely new design for an internal application that would be utilized by all of the province\'s hospitals.'} />
             </div>
 
