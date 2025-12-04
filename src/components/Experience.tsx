@@ -1,7 +1,4 @@
 // components/CustomButton.js
-import { spawn } from 'child_process';
-import React from 'react';
-
 const Experience = ({ CompanyLink="", Company, JobTitle, Content, Date, tags=[] }:any) => {
   return (
   
@@ -19,8 +16,8 @@ const Experience = ({ CompanyLink="", Company, JobTitle, Content, Date, tags=[] 
           <h3 className="text-md mb-2 text-slate-400 transition duration-150 group-hover/link:text-slate-100">{JobTitle}</h3>
           <p className='text-sm transition duration-150 group-hover/link:text-slate-100'>{Content}</p>
           <ul className='mt-2 flex flex-wrap'>
-            {tags.map((tag:any) => (
-              <li className='mr-2 mb-2'>
+            {tags.map((tag:any, index:number) => (
+              <li key={`${tag}-${index}-${Company}`} className='mr-2 mb-2'>
                 <div className="transition duration-150 backdrop:flex items-center rounded-full bg-sky-600/20 group-hover/link:bg-sky-500/20 px-3 py-1 text-xs font-medium leading-5 text-sky-500 ">{tag}</div> 
               </li>
             ))}

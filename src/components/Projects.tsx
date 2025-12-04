@@ -21,8 +21,8 @@ const Experience = ({ Company, Content, tags=[], LogoLink, CompanyLink }:any) =>
             </h2>
             <p className='text-sm transition duration-150 group-hover/link:text-slate-100'>{Content}</p>
             <ul className='mt-2 flex flex-wrap'>
-                {tags.map((tag:any) => (
-                <li className='mr-2 mb-2'>
+                {tags.map((tag:any, index:number) => (
+                <li key={`${tag}-${index}-${Company}`} className='mr-2 mb-2'>
                     <div className="transition duration-150 backdrop:flex items-center rounded-full bg-sky-600/20 group-hover/link:bg-sky-500/20 px-3 py-1 text-xs font-medium leading-5 text-sky-500 ">{tag}</div> 
                 </li>
                 ))}
