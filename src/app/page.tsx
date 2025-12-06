@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Experience from '@/components/Experience'
 import Projects from '@/components/Projects'
 
